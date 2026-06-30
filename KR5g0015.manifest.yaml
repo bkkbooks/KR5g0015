@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0015/v1
+canonical_location: https://kanripo.org/bkk/KR5g0015/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 上清明鑑要經
+  identifiers:
+    alt_id:
+    - DZ1206
+  date: '2015-08-29 02:25:31.061451'
+  source:
+    repository: kanripo
+    path: KR5g0015
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0015_000.yaml, hash: 'sha256:586dd006b690b45e21de51c49f60c96b937d89b78df412abc4aeb34fc8af8f48'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0015_000.markers.yaml, hash: 'sha256:42be4c08d5e4943c798ee6e38c581c3eb12290a2c40e0df9649779830bbc8fef'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0015_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3805
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:416bbd73e391ca99fc13a518130b8b5dd4cf3de849aecba2a7a69de0f6a73c9b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
